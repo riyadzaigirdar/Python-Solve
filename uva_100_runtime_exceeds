@@ -1,0 +1,44 @@
+x, y = input("Enter two value: ").split()
+i = int(x)
+j = int(y)
+loops = 0
+
+
+def my_function(k):
+    loop = 0
+    while k !=1 :
+            if( k%2 != 0 ):
+                k = (3*k) + 1 
+                loop += 1
+            elif( k%2 == 0 ):
+                k = k / 2
+                loop += 1
+            elif(k == 1):
+                loop += 1
+                break
+    return loop        
+
+
+while(0 < i,j < 10000):
+    
+    for k in range(i,j+1):
+        
+        if(my_function(k) >loops):
+            loops = my_function(k)   
+
+            
+
+print(x,y,loops)         
+
+
+#n = int(input("Enter the number: "))
+#print(n)
+
+
+#while(n != 1):
+#    if(n%2 != 0):
+#        n = (3*n) + 1 
+#        print(int(n))
+#    elif(n%2 == 0):
+#        n = n / 2
+#        print(int(n))

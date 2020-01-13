@@ -34,7 +34,7 @@ print(x,y,loops)
 #n = int(input("Enter the number: "))
 #print(n)
 
-
+#_SIMPLE_ALOGORITHM
 #while(n != 1):
 #    if(n%2 != 0):
 #        n = (3*n) + 1 
